@@ -1,8 +1,8 @@
 package unidade2;
 
 /*
-*  Escrever uma classe Java para calcular o fatorial de um dado número N.
-* */
+ *  Escrever uma classe Java para calcular o fatorial de um dado número N.
+ * */
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class Fatorial {
 
         // Mostrando o resultado
         System.out.print(storeValor + "! = ");
-        for (int f: fatorial) {
+        for (int f : fatorial) {
             total = total + f;
 
             System.out.print(f);
